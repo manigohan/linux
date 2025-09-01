@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: BSD-3-Clause
+/*
+ * Copyright (c) 2025, Gabriel Gonzales <manigohan@disroot.org>
+ */
+
+/dts-v1/;
+
+#include "sm6375.dtsi"
+
+/ {
+	model = "Samsung Galaxy A23 5G";
+	compatible = "samsung,a23xq", "qcom,sm6375";
+	chassis-type = "handset";
+};
